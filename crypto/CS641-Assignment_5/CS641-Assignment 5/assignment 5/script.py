@@ -1,0 +1,16 @@
+print ("team_7")
+print ("team_7")
+print ("5")
+print ("go")
+print ("wave")
+print ("dive")
+print ("go")
+print ("read")
+file = open("alphabet_input.txt", "r+")
+for x in file:
+    x = x.split()
+    for word in x:
+        print (word)
+        print ("c")
+print ("back")
+print ("exit")
